@@ -1,0 +1,44 @@
+.container{
+  position: relative;
+  width: 810px;
+  height: 200px;
+  border: solid black;
+}
+
+#pelota{
+  position: absolute;
+  left: 0;
+  margin-top: 2em;
+  margin-bottom: 2em;
+  background-color: rgb(249, 83, 0);
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+.buttons{
+  position: absolute;
+  width: 100%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  top: 100%;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+.btn-style{
+  background-color: thistle;
+  color: black;
+  font-size: 30px;
+  margin-right: 100px;
+  padding: 20px;
+  cursor: pointer;
+}
+
+#miDiv {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
